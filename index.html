@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVOK FURNITURE</title>
+
+   <style>
+
+body {
+
+margin: 0px;
+padding: 0px;
+background-color: rgb(241, 228, 228);
+
+
+
+}
+
+
+.top {
+
+border: 3px solid black;
+background-color: rgb(238, 8, 8);
+padding: 0px 2px;
+height: 40px;
+
+
+}
+
+.top h3 {
+
+text-align: center;
+padding-bottom: 30px;
+
+}
+
+.sign {
+
+border: 3px solid black;
+background-color: rgb(196, 168, 168);
+height: 40px;
+
+
+}
+
+.sign li {
+
+float: right;
+position: relative;
+list-style: none;
+padding: 10px;
+/* border: 2px solid red; */
+margin-bottom: 15px;
+padding-bottom: 15px;
+bottom: 17px;
+
+
+}
+
+.sign li a {
+
+/* border: 2px solid black; */
+margin-bottom: 20px;
+padding-bottom: 10px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+.sign li a:hover {
+
+border: 1px solid black;
+background-color: rgb(120, 66, 172);
+border-radius: 5px;
+padding: 0px 3px;
+
+}
+
+
+
+
+.navbar {
+
+border: 3px solid black;
+
+
+
+
+}
+
+.navbar ul {
+
+
+margin-left: 80px;
+}
+
+.navbar li {
+
+/* margin-left: 40px; */
+display: inline-block;
+list-style: none;
+
+
+
+}
+
+.navbar li a {
+
+text-decoration: none;
+margin: 0px 6px;
+color: black;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.navbar li a:hover {
+
+border: 2px solid black;
+background-color: rgb(133, 182, 182);
+border-radius: 5px;
+padding: 0px 4px;
+
+
+}
+
+.btn {
+
+/* border: 2px solid black; */
+right: 10px;
+position: absolute;
+display: inline-block;
+top: 103px;
+margin: 5px 12px;
+padding: 5px 10px;
+border-radius: 7px;
+font-size: 18px;
+}
+
+.image1 {
+
+/* margin-top:5px; */
+/* border: 2px solid black; */
+width: 1350px;
+height: 400px;
+
+
+}
+
+.container {
+
+/* border: 3px solid black; */
+width: 1350px;
+height: 450px;
+
+
+
+}
+
+.cols {
+
+width: 300px;
+height: 300px;
+float: left;
+/* border: 2px solid black; */
+margin-top: 20px;
+margin-left: 80px;
+margin-right: 50px;
+
+
+}
+
+.container h3 {
+
+text-align: center;
+font-size: 30px;
+}
+
+.cols1 {
+
+width: 290px;
+height: 250px;
+float: left;
+/* border: 2px solid black; */
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+.cols1 i {
+
+font-size: 20px;
+}
+
+.subscribe {
+
+/* border: 2px solid black; */
+margin-top: 10px;
+
+
+}
+
+.subscribe h3 {
+
+text-align: center;
+
+}
+
+.email {
+
+/* border: 2px solid black; */
+display: block;
+margin: auto;
+margin-bottom: 10px;
+padding: 10px;
+padding-left: 100px;
+padding-right: 100px;
+border-radius: 5px;
+font-size: 18px;
+text-align: center;
+
+
+
+}
+
+.subs {
+
+/* border: 2px solid black; */
+display: block;
+margin: auto;
+margin-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+background-color: rgb(187, 9, 9);
+border-radius: 8px;
+font-size: 18px;
+}
+
+.subs:hover {
+
+background-color: rgb(119, 158, 80);
+}
+
+
+.com_logo {
+
+/* border: 3px solid black; */
+width: 1350px;
+height: 200px;
+margin-top: 10px;
+display: block;
+
+
+}
+
+.logo {
+/* border: 2px solid black; */
+display: inline-block;
+margin-top: 10px;
+margin-left: 150px;
+position: relative;
+width: 250px;
+
+}
+
+.para {
+
+border: 2px solid black;
+width: 800px;
+height: 100px;
+/* margin: auto; */
+/* margin-bottom: 200px; */
+/* display: inline-block; */
+position: absolute;
+text-align: center;
+right: 10px;
+top: 285%;
+
+
+
+
+}
+
+.para h3 {
+
+text-align: center;
+padding-bottom: 20px;
+margin-bottom: 20px;
+/* font-size: 20px; */
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position: absolute;
+
+
+}
+
+.about {
+
+/* border: 2px solid black; */
+height: 250px;
+margin: 5px;
+
+}
+
+.cols2 {
+
+width: 270px;
+height: 230px;
+float: left;
+/* border: 2px solid black; */
+margin-top: 10px;
+margin-left: 30px;
+margin-right: 20px;
+/* text-align: center; */
+
+}
+
+.cols2 h3{
+
+text-align: center;
+/* margin-top:25px; */
+}
+
+.cols2 ul{
+
+
+display: inline-block;
+/* text-decoration: none; */
+list-style: none;
+text-align: center;
+/* margin-bottom: 10px; */
+margin:20px;
+/* padding: 20px; */
+
+}
+
+.last{
+
+    /* border: 2px solid black; */
+    margin-top: 5px;
+    height: 60px;
+
+}
+
+.last1{
+
+text-align: center;
+}
+
+.feedback{
+
+    border: 2px solid black;
+    width: 100px;
+}
+
+
+   </style>
+
+</head>
+<body>
+    
+    <div class="top">
+
+        <h3>Flat 10% Off (Use Coupon- DIWALI10)</h3>
+
+    </div>
+
+
+
+    <div class="sign">
+
+        <ul>
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="">Find Your Store</a></li>
+            <li><a href="">Wishlist</a></li>
+            <li><a href="sign.html">New User</a></li>
+
+        </ul>
+
+
+
+    </div>
+    <div class="navbar">
+
+        <div>
+            <!-- <img src="/amazon-rivet-furniture-1533048038.jpg"/> -->
+        </div>
+
+        <ul>
+
+            <li><a href="furniture.html">Furniture</a></li>
+            <li><a href="sofa.html">Sofa & Recliners</a></li>
+            <li><a href="bed.html">Beds & Wardrobes</a></li>
+            <li><a href="dining.html">Dining</a></li>
+
+        </ul>
+
+        <div>
+
+            <input type="text" class="btn" placeholder="Search entire store here..."></input>
+
+        </div>
+
+    </div>
+
+
+    <div class="image1">
+
+        <!-- <img src="/Large_CLP_Furniture_2x_280822-n-2.jpg" alt="furniture image"/>         -->
+
+        <img width="1360" height="400" src="https://damroindia.com/media/wysiwyg/Image/Staffer_damro.jpg" alt="furniture image" />
+
+
+    </div>
+
+    <div class="container">
+
+        <div>
+            <h3>Value Buys In Furniture</h3>
+        </div>
+        <div class="cols">
+
+            <img width="300px" height="300px" src="https://www.ulcdn.net/media/collection/listings/Desktop_CarouselCoffee_Tables_home_new.jpg?1652093725" alt="image1" />
+        </div>
+
+        <div class="cols">
+
+            <img width="300px" height="300px" src="https://www.ulcdn.net/media/collection/listings/Desktop_CarouselTV_Units_home_new.jpg?1652093823" alt="image2" />
+
+        </div>
+
+        <div class=cols>
+
+            <img width="300px" height="300px" src="https://www.ulcdn.net/media/collection/listings/Desktop_CarouselShoe_Racks_home_new.jpg?1652093789" alt="image3" />
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div>
+            <h3>Popular Across Site</h3>
+        </div>
+        <div class="cols1">
+
+            <img width="290px" height="250px" src="https://www.ulcdn.net/images/products/149928/product/lp_2.jpg?1548906916" alt="image4" />
+
+            <div>
+                <i>Stanhope Engineered Wood King Size Drawer Storage Upholstered Bed In Finish</i>
+            </div>
+        </div>
+
+        <div class="cols1">
+
+            <img width="290px" height="250px" src="https://www.ulcdn.net/images/products/223893/product/Twain_Study_Table_LP.jpg?1544673336" alt="image5" />
+            <diV>
+                <i>Twain Engineered Wood Study Table In Cherry Melamine Finish</i>
+            </diV>
+
+        </div>
+
+        <div class="cols1">
+
+            <img width="290px" height="250px" src="https://www.ulcdn.net/images/products/82584/product/1956_Lounge___Ottoman_Replica_Black_LP.jpg?1519629745" alt="image6" />
+            <div>
+
+                <i>1956 Leatherette Lounge Chair In Black Colour</i>
+            </div>
+        </div>
+
+        <div class="cols1">
+
+            <img width="290px" height="250px" src="https://www.ulcdn.net/images/products/159172/product/Thorpe_Upholstered_Storage_Bed_Queen_LP.jpg?1510822520" alt="image7">
+            <div>
+                <i>Thorpe Engineered Wood Queen Size Drawer Storage Upholstered Bed In Finish
+                </i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="subscribe">
+
+        <h3>SIGN UP AND GET A CHANCE TO WIN THE GIVEAWAY OF THE WEEK.</h3>
+
+
+        <input class="email" type="text" placeholder="Your Email ID" />
+        <button class="subs" type="button">SUBSCRIBE</button>
+
+
+
+    </div>
+
+    <diV class="feedback">
+
+        <p class="par">Give feedback <a href="" onclick="myfun()">Feedback</a></p>
+
+    </diV> 
+
+
+    <div class="com_logo">
+        <div>
+            <img width="200px" class="logo" src="https://www.evok.in/media/wysiwyg/big_logo.jpg" alt="logo">
+        </div>
+
+         <div class="para"> 
+            <h3>
+                Evok Stores showcase over 20000+ world class contemporary products in Home Furniture, Soft Furnishings,
+                Home Décor & Accessories, Wall Fashion, Modular Kitchens & provide a good assortment of services which
+                include Design to Build (Interior Design Services).
+            </h3>
+
+        </div> 
+
+    </div>
+
+
+
+    <div class="about">
+
+        <div class="cols2">
+
+            <h3>About</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Blog</li>
+                <li>Affiliates</li>
+            </ul>
+            
+
+        </div>
+
+        <div class="cols2">
+
+            <h3>Product Shoppign</h3>
+            <ul>
+                <li>Product Care</li>
+                <li>Buying Guide</li>
+                <li>Warrantey</li>
+                <li>Reviews</li>
+
+
+            </ul>
+
+
+        </div>
+
+        <div class="cols2">
+
+            <h3>Help</h3>
+            <ul>
+                <li>FAQ's</li>
+                <li>Store Locator</li>
+                <li>Project Enquiry</li>
+                <li>Offers</li>
+            </ul>
+
+           
+
+        </div>
+
+        <div class="cols2">
+
+            <h3>Policies</h3>
+
+            <ul>
+                <li>Shopping & Delivery</li>
+                <li>Returns</li>
+                <li>Payment Methods</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="last">
+
+            <div class="last1">
+
+                <img   width="800px" height="60"  src="https://www.evok.in/media/wysiwyg/payment_logos_n.jpg" al="payment">
+
+            </div>
+
+    </div>
+
+    
+
+    <script>
+
+            function myfun(){
+
+                let a = confirm("Do you like to give feedback ?")
+
+                if(a){
+                    prompt("Enter feedback here")
+                }
+                else
+                {
+                    alert("Thanks for visiting our website")
+                }
+
+            }
+
+
+    </script>
+
+    
+
+
+        
+
+</body>
+</html>
